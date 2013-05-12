@@ -1,0 +1,14 @@
+{
+  "name": "renderable-component",
+  "repo": "whirlibulf/renderable-component",
+  "description": "A component for rendering an object in the whirlibulf game engine",
+  "version": "0.0.1",
+  "keywords": ["whirlibulf", "component"],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
