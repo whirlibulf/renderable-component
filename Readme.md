@@ -9,12 +9,9 @@ A component for specifying what to render for an object in the whirlibulf game e
 
 ## Usage
 
-The component ID is `renderable`.
-
 Register the component:
 
-    var component = require('renderable-component');
-    game.addComponent(new component());
+    game.addComponent('renderable', require('renderable-component'));
 
 The options object for this component:
 
