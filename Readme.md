@@ -17,7 +17,8 @@ The options object for this component:
 
     {
       renderable: 'rectangle',
-      visible: true
+      visible: true,
+      zIndex: 0
     }
 
 ### renderable
@@ -35,6 +36,14 @@ The `visible` property should be a boolean.
 The renderer will not draw an object if it is not visible.
 
 The default value is `true`.
+
+### zIndex
+
+The `zIndex` property should be a number.
+
+The renderer will draw objects in the order sorted by zIndex, with higher zIndex objects appearing in front of lower zIndex objects.
+
+The default value is 0.
 
 ## License
 
