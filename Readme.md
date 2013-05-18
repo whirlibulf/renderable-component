@@ -11,7 +11,7 @@ A component for specifying what to render for an object in the whirlibulf game e
 
 Register the component:
 
-    game.addComponent('renderable', require('renderable-component'));
+    game.use('renderable', require('renderable-component'));
 
 The options object for this component:
 
